@@ -1,7 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+} let newWord = "";
+for (let char of word) {
+  newWord = char + newWord
 }
-
+  if(newWord === word) {
+    return true
+  }else {
+    return false
+  }
 /* 
   Add your pseudocode here
 */
